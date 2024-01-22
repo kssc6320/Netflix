@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: aiworklabs/netflix:latest  # Replace with your Docker Hub repo and image tag
+          tags: kssc6320/netflix:latest  # Replace with your Docker Hub repo and image tag
 
       - name: Install Helm
         run: |
