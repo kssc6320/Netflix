@@ -8,7 +8,7 @@ metadata:
     # Add any other necessary annotations for your Ingress controller
 spec:
   rules:
-  - host: "	saisowmith.jumpingcrab.com"
+  - host: "saisowmith.jumpingcrab.com"
     http:
       paths:
       - path: /
